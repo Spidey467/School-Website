@@ -1,0 +1,101 @@
+<html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+<style>
+a:link, a:visited 
+   {
+     background-color: lightgreen;
+     color: white;
+     padding: 14px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+   }
+
+a:hover, a:active 
+  {
+      background-color: green;
+  }
+</style>
+</head>
+<body background="Images/6.jpeg">
+<a href="home.html">LIBRARY HOME</a>
+<form action="#" name="StudentRegistration" onsubmit="return(validate());">
+
+<table cellpadding="2" width="500"      height="500" align="center"
+cellspacing="10">
+
+<tr>
+<td colspan=2>
+<marquee><center><font color="yellow"><font size=10><b>FILL IT UP OUR DETAILS</b></font></center><marquee>
+</td>
+</tr>
+
+<tr>
+<td><font size="6"> <font color="RED">Name</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+<tr>
+<td><font size="6"> <font color="RED">Father's Name</td>
+<td><input type="text" name="fathername" id="fathername"
+size="30"></td>
+</tr>
+<tr>
+<td><font size="6"> <font color="RED">Mother's Name</td>
+<td><input type="text" name="paddress" id="paddress" size="30"></td>
+</tr>
+
+<tr>
+<td><font size="6"> <font color="RED">Personal Address</td>
+<td><input type="text" name="personaladdress"
+id="personaladdress" size="30"></td>
+</tr>
+
+<tr>
+<td><font size="6"> <font color="RED">Gender</td>
+<td><input type="radio" name="sex" value="male" size="10">Male
+<input type="radio" name="sex" value="Female" size="10">Female</td>
+</tr>
+
+<tr>
+<td><font size="6"> <font color="RED">Stream</td>
+<td><select name="City">
+<option value="-1" selected>Select any one...</option>
+<option value="New Delhi">Non-medical</option>
+<option value="Mumbai">Medical</option>
+<option value="Goa">Arts</option>
+<option value="Patna">Jouniour class</option>
+</select></td>
+</tr>
+
+<tr>
+<td><font size="6"> <font color="RED">Book Name</td>
+<td><input type="text" name="emailid" id="emailid" size="30"></td>
+</tr>
+
+</tr>
+<td><font size="6"> <font color="RED">Book Issue Date</td>
+<td><input type="text" name="emailid" id="emailid" size="30"></td>
+</tr>
+</tr>
+
+
+<tr>
+<td><font size="6"> <font color="RED">Library Card No.</td>
+<td><input type="text" name="emailid" id="emailid" size="30"></td>
+</tr>
+
+
+<tr>
+<td><font size="6"> <font color="RED">Mobile No.</td>
+<td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+</tr>
+<tr>
+<td><a="reset"><input type="reset"></td></a>
+<td colspan="2"><input type="submit"value="issue" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,66 @@
+#top{
+	position:relative;
+	border: 1px solid black;
+	height:1050px;
+	background-color:lightblue; 
+	background-image:url("Images/dav6.JPG");
+	background-repeat:no-repeat; 
+}
+#top #btop 	
+{  
+    top:80px;
+    height:100px;
+    line-height: 1.8;
+    word-spacing: 5px;
+    text-shadow:3px 2px blue;
+    font-weight:bold; 
+    position:relative;
+    color:blue;
+	background-image:url("Images/logo.png");
+	background-repeat:no-repeat;
+	width: 320px;
+    height: 80px;
+    padding: 15px;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px grey;
+	
+
+}
+#img
+{   
+	background-image:url("Images/dav10.jpg");
+    border: 1px solid blue;
+	height:360px;
+	background-color:gray;
+}
+#div{
+	background-image:url("Images/dav29.png");
+	height:2500px;
+	filter: alpha(opacity=50);
+	opacity: 1;
+	color:white;
+	font-size:25px;
+	background-color:lightgreen;
+	border: 1px solid green;
+	
+}
+#top #btop #d 
+{  
+	height:57px;
+    border:1px solid white;
+	position:fixed;
+	top:10px;
+	right:100px;
+}
+#font
+{
+	width:600px;
+	height:100px;
+	position:relative;
+	left:340px;
+	top:300px;
+	font-size:28px;
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 5px darkblue;
+
+}
